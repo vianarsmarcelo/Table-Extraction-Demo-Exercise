@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eksvkRAaq0uVyTomxJ0U-A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.google.com/search?sca_esv=db1362d5ccebe674&amp;sxsrf=APpeQnuj1XV0jE8foAbYbEkWUaAof5wrAQ:1792533414159&amp;udm=vids&amp;fbs=ABfTbFVGaQeaqnsRPI5sOMG32KszFXrI7_s-4swi64G9MSgdo0fVrvsD4m-yDIVskRg2AqsuZ1KcbuB4XS6Ih2-wZVlNW2Hg3_14_H1xmCzCC4WtC83FLAtGxxuvHg-kPAC7pyPVWNxyMsQ45jJstF55Sirm1UKNuBBCMfZlbdEPqPU7XDXZNgylBmQ4Uq4xQgdTxzwnDseo8_XRpvQAHKrup37F4oCtzA&amp;q=UiPath+Academy&amp;sa=X&amp;ved=2ahUKEwjOgJiry8mXAxW0G7kGHSzkIUUQtKgLegQIFxAB&amp;biw=1356&amp;bih=678&amp;dpr=1.37#ip=1" DesignTimeRectangle="230, -13238, 893, 18493" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='center_col' tag='DIV' /&gt;" Guid="4fa549c2-b606-4d6a-8083-59b9b414bcd3" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiPath Academy - Pesquisa Google' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1d7ccb119e0899287e8dfef6f2b0856a.jpg" xmlns="">0l5a0cKtigkGJ39QWBagUBw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">ExtractDataGeneric</x:String>
+    <p:InArgument x:TypeArguments="x:String" x:Key="ExtractDataSettings" xml:space="preserve">&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='Title'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='Title Url'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;true&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='Date'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+&lt;/Table&gt;</p:InArgument>
+    <x:Null x:Key="NextLinkTarget" />
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
